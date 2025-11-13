@@ -72,10 +72,10 @@ import datetime
 from matplotlib.backends.backend_pdf import PdfPages
 
 # This is where SPX options data are:
-data_location    = 'C:\\Users\\khami\\Documents\\TRADING\\cboe_data\\cboe_spx_data'
+data_location    = ''  # Put path here!
 
 # This is where the results will go:
-results_location = 'C:\\Users\\khami\\Documents\\TRADING\\cboe_data\\spx_options_features_data'
+results_location = ''  # Put path here!
 
 
 ###################################################################################
@@ -503,3 +503,4 @@ df_public = df[public_columns].copy()
 df_public.to_csv('spx_options_features_data_public.csv', index = False)
 
 print(df_public.info())
+
