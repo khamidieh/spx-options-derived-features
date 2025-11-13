@@ -46,7 +46,7 @@
 #       Hamidieh, Kam (2025). 
 #       "Derived Daily Features from S&P 500 Index (SPX) Options"
 #       SSRN Working Paper. 
-#       [URL to be inserted]
+#       https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5744985
 #
 #   USAGE
 #   -----
@@ -503,5 +503,6 @@ df_public = df[public_columns].copy()
 df_public.to_csv('spx_options_features_data_public.csv', index = False)
 
 print(df_public.info())
+
 
 
