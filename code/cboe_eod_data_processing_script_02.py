@@ -44,7 +44,7 @@
 #   If you use this script or the derived features in your research, please cite:
 #
 #       Hamidieh, Kam (2025). 
-#       "A Daily Feature Dataset Derived from S&P 500 Index (SPX) Options."
+#       "Derived Daily Features from S&P 500 Index (SPX) Options"
 #       SSRN Working Paper. 
 #       [URL to be inserted]
 #
@@ -503,4 +503,5 @@ df_public = df[public_columns].copy()
 df_public.to_csv('spx_options_features_data_public.csv', index = False)
 
 print(df_public.info())
+
 
